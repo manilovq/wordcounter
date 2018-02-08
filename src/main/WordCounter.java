@@ -1,13 +1,14 @@
-import java.io.*;
 
+
+import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class WordCounter {
     public static void main(String[] args) throws IOException{
 
-        InputData inString = readFile();
-
-        System.out.println(countWords(inString));
+        InputData inputData = readFile();
+        System.out.println(countWords(inputData));
 
 
     }

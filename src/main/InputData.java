@@ -1,3 +1,5 @@
+
+
 public class InputData {
 
     String inputString;
